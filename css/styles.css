@@ -5,6 +5,14 @@
 # - #2B303A
 */
 
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
 body {
     background: #BAC1B8;
     width: 70%;
@@ -57,10 +65,10 @@ a {
 }
 
 .profile-img {
-    width: 300px;
     border-radius: 50%;
+    /* width: 300px;
     float: left;
-    margin-right: 30px;
+    margin-right: 30px; */
 }
 
 .content-wrap {
@@ -74,4 +82,17 @@ a {
 .contact-info a{
     padding: 10px;
     display: inline-block;
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
 }

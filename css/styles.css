@@ -24,6 +24,10 @@ header, footer {
     background: #58A4B0;
 }
 
+header {
+    display: flex;
+}
+
 footer {
     text-align: center;
 }
